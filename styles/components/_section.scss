@@ -9,7 +9,10 @@
 	section, article {
 		&.special {
 			text-align: center;
-		}
+        }
+        &.homeOne {
+            background-color: _palette(accent4);
+        }
 	}
 
 	header {

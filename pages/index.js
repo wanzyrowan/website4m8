@@ -9,12 +9,12 @@ export default () => (
             <Banner />
 
             <div id="main">
-                <section id="one">
+                <section id="one" className="homeOne">
                     <div className="inner">
                         <header className="major">
                             <h2>Massa libero</h2>
                         </header>
-                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+                        <p>P and S Gas Safe Engineers  is an established family business working in Greater London and Home Counties, with over 20 year’s experience in gas, electric and dual fuel cooker repairs, installations and service.</p>
                         <ul className="actions">
                             <li><Link href="/landing"><a className="button next">Get Started</a></Link></li>
                         </ul>
