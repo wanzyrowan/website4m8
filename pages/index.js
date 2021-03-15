@@ -11,13 +11,10 @@ export default () => (
             <div id="main">
                 <section id="one" className="homeOne">
                     <div className="inner">
-                        <header className="major">
-                            <h2>Massa libero</h2>
+                        <header className="">
+                            <h2>About Us</h2>
                         </header>
                         <p>P and S Gas Safe Engineers  is an established family business working in Greater London and Home Counties, with over 20 year’s experience in gas, electric and dual fuel cooker repairs, installations and service.</p>
-                        <ul className="actions">
-                            <li><Link href="/landing"><a className="button next">Get Started</a></Link></li>
-                        </ul>
                     </div>
                 </section>
                 <section id="two" className="tiles">
