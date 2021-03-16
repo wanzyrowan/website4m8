@@ -46,20 +46,6 @@ export default () => (
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic05.jpg')`}}>
-                        <header className="major">
-                            <h3>Consequat</h3>
-                            <p>Ipsum dolor sit amet</p>
-                        </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
-                    </article>
-                    <article style={{backgroundImage: `url('/static/images/pic06.jpg')`}}>
-                        <header className="major">
-                            <h3>Etiam</h3>
-                            <p>Feugiat amet tempus</p>
-                        </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
-                    </article>
                 </section>
             </div>
 
