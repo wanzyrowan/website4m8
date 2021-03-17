@@ -34,7 +34,7 @@
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+            width: 40%;
 
 			.image {
 				display: none;
@@ -92,8 +92,18 @@
 
 			&:hover {
 				&:before {
-					opacity: 0;
-				}
+                    opacity: 0;
+                }
+                &:after{
+                    @include vendor('transition', (
+                        'transform 0.25s ease',
+                        'opacity 0.25s ease',
+                        'filter 1s ease',
+                        '-webkit-filter 1s ease'
+                    ));
+                    opacity: 1;
+                    background-color: _palette(bg);
+                }
 			}
 
 			&.is-transitioning {
