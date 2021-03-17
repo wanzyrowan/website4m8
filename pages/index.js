@@ -47,6 +47,14 @@ export default () => (
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
                 </section>
+                <section id="one" className="homeOne">
+                    <div className="inner">
+                        <header className="">
+                            <h2>About Us</h2>
+                        </header>
+                        <p>P and S Gas Safe Engineers  is an established family business working in Greater London and Home Counties, with over 20 year’s experience in gas, electric and dual fuel cooker repairs, installations and service.</p>
+                    </div>
+                </section>
             </div>
 
         </div>
