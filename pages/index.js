@@ -50,6 +50,8 @@ export default () => (
                 <section id="one" className="major">
                     <div className="innerGrowingNumbers">
                         <h2>About Us</h2>
+                        <h2>About Us</h2>
+                        <h2>About Us</h2>
                     </div>
                 </section>
             </div>
