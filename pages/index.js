@@ -48,7 +48,7 @@ export default () => (
                     </article>
                 </section>
                 <section id="one" className="major">
-                    <div className="innerGrowingNumbers">
+                    <div className="justify-between">
                         <h2>About Us</h2>
                         <h2>About Us</h2>
                         <h2>About Us</h2>

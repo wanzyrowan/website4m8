@@ -15,7 +15,7 @@
             background-color: _palette(accent1);
         }
 
-        .innerGrowingNumbers {
+        .justify-between{
             @include vendor('display', 'flex');
             @include vendor('flex-direction', 'row');
             justify-content: space-between;
