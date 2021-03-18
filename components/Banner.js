@@ -8,7 +8,7 @@ const Banner = (props) => (
                 <p>Our Engineers are Gas Safe registered, fully licensed and insured.<br />
                 We have helped thousands of customers accross Greater London and Home Counties.</p>
                 <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Get Started</a></li>
+                    <li><a href="#one" className="button next scrolly">Our Services</a></li>
                 </ul>
             </div>
         </div>

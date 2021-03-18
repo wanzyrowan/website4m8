@@ -95,12 +95,6 @@
                     opacity: 0;
                 }
                 &:after{
-                    @include vendor('transition', (
-                        'transform 0.25s ease',
-                        'opacity 0.25s ease',
-                        'filter 1s ease',
-                        '-webkit-filter 1s ease'
-                    ));
                     opacity: 1;
                     background-color: _palette(bg);
                 }
