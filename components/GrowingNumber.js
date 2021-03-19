@@ -27,10 +27,10 @@ const GrowingNumber = (props) => {
     useInterval(() => {
         if (count != props.limit)
             setCount(count + 1);
-        }, 10)
+        }, props.interval)
 
     return (
-        <h1>{count}</h1>
+        <h1>{count}+</h1>
     );
 }
 
