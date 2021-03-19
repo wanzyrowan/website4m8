@@ -25,7 +25,7 @@ const GrowingNumber = (props) => {
     const [count, setCount] = useState(0);
 
     useInterval(() => {
-        if (count != 100)
+        if (count != props.limit)
             setCount(count + 1);
         }, 10)
 

@@ -50,7 +50,7 @@ export default () => (
                 </section>
                 <section id="one" className="major">
                     <div className="justify-between">
-                        <GrowingNumber />
+                        <GrowingNumber limit={100}/>
                         <h2>About Us</h2>
                         <h2>About Us</h2>
                     </div>
