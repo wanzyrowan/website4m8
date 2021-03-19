@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
+import GrowingNumber from '../components/GrowingNumber'
 
 export default () => (
     <Layout>
@@ -49,7 +50,7 @@ export default () => (
                 </section>
                 <section id="one" className="major">
                     <div className="justify-between">
-                        <h2>About Us</h2>
+                        <GrowingNumber />
                         <h2>About Us</h2>
                         <h2>About Us</h2>
                     </div>

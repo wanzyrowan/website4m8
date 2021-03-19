@@ -1,18 +1,37 @@
-function animateValue(obj, start, end, duration) {
-  let startTimestamp = null;
-  const step = (timestamp) => {
-    if (!startTimestamp) startTimestamp = timestamp;
-    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-    obj.innerHTML = Math.floor(progress * (end - start) + start);
-    if (progress < 1) {
-      window.requestAnimationFrame(step);
+import React, { useState, useEffect, useRef } from 'react';
+
+function useInterval(callback, delay) {
+  const savedCallback = useRef();
+
+  // Remember the latest callback.
+  useEffect(() => {
+    savedCallback.current = callback;
+  }, [callback]);
+
+  // Set up the interval.
+  useEffect(() => {
+    function tick() {
+      savedCallback.current();
     }
-  };
-  window.requestAnimationFrame(step);
+    if (delay !== null) {
+      let id = setInterval(tick, delay);
+      return () => clearInterval(id);
+    }
+  }, [delay]);
 }
 
-const GrowingNumber = (props) => (
-    <h1></h1>
-)
+const GrowingNumber = (props) => {
+    
+    const [count, setCount] = useState(0);
+
+    useInterval(() => {
+        if (count != 100)
+            setCount(count + 1);
+        }, 10)
+
+    return (
+        <h1>{count}</h1>
+    );
+}
 
 export default GrowingNumber
