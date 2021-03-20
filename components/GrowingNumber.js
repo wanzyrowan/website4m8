@@ -22,7 +22,7 @@ function useInterval(callback, delay) {
 
 const GrowingNumber = (props) => {
     
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useState(props.startFrom);
 
     useInterval(() => {
         if (count != props.limit)
