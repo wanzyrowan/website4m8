@@ -50,10 +50,10 @@ export default () => (
                 </section>
                 <section id="one" className="major">
                     <div className="justify-between">
-                        <GrowingNumber limit={900} interval={10} />
-                        <GrowingNumber limit={800} interval={10}/>
-                        <GrowingNumber limit={600} interval={10}/>
-                        <GrowingNumber limit={700} interval={10}/>
+                        <div className="justify-between-item"><GrowingNumber limit={900} interval={10} /></div>
+                        <div className="justify-between-item"><GrowingNumber limit={800} interval={10} /></div>
+                        <div className="justify-between-item"><GrowingNumber limit={600} interval={10} /></div>
+                        <div className="justify-between-item"><GrowingNumber limit={700} interval={10} /></div>
                     </div>
                 </section>
             </div>
