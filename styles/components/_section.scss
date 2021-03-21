@@ -10,9 +10,11 @@
 		&.special {
 			text-align: center;
         }
-        &.homeOne {
-            text-align: center;
+        &.orange {
             background-color: _palette(accent1);
+        }
+        &.blue {
+            background-color: _palette(bg);
         }
 
         .justify-between{

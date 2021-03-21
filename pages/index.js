@@ -10,7 +10,7 @@ export default () => (
             <Banner />
 
             <div id="main">
-                <section id="one" className="homeOne">
+                <section className="special orange">
                     <div className="inner">
                         <header className="">
                             <h2>MEET US</h2>
@@ -41,23 +41,53 @@ export default () => (
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
                 </section>
-                <section id="one" className="major">
-                    <div className="justify-between">
-                        <div className="justify-between-item">
-                            <GrowingNumber limit={900} interval={10} startFrom={100} />
-                            <p>Gas cookers installed</p>
+                <section className="special blue">
+                    <div className="inner">
+                        <h2>TESTIMONIALS</h2>
+                        <div className="justify-between">
+                            <div className="box">
+                                <p>
+                                    “Gas Cooker Installation Pipework – Good tidy workmanship carried out expertly.” <br /><br /> <i>James Whitbread – London</i>
+                                </p>
+                            </div>
+                            <div className="box">
+                                <p>
+                                    “Electrical element replacement for oven. Fantastic, available at short notice.” <br /><br /> <i>Michael Jones – Epsom</i>
+                                </p>
+                            </div>
+                            <div className="box">
+                                <p>
+                                    “Clean Oven – Very efficient through work. Quick response rate (within 24 hours) Friendly, helpful.” <br /><br /> <i>Joanna Raphael – Romford</i>
+                                </p>
+                            </div>
+                            <div className="box">
+                                <p>
+                                    “Repair Gas Oven – Polite And Courteous At All Times And Good At Job.” <br /><br /> <i>John Notes – Epsom</i>
+                                </p>
+                            </div>
                         </div>
-                        <div className="justify-between-item">
-                            <GrowingNumber limit={600} interval={10} startFrom={100} />
-                            <p>Electric cookers installed</p>
-                        </div>
-                        <div className="justify-between-item">
-                            <GrowingNumber limit={800} interval={10} startFrom={100} />
-                            <p>Cookers repaired</p>
-                        </div>
-                        <div className="justify-between-item">
-                            <GrowingNumber limit={700} interval={10} startFrom={100} />
-                            <p>Gas Safety certificates Issued</p>
+                    </div>
+                </section>
+                <section className="special blue">
+                    <div className="inner">
+                        <h2>OUR EXPERIENCE</h2>
+                        <div className="justify-between">
+                            <div className="justify-between-item">
+                                <GrowingNumber limit={900} interval={10} startFrom={100} />
+                                <p>Gas cookers installed</p>
+                            </div>
+                            <div className="justify-between-item">
+                                <GrowingNumber limit={600} interval={10} startFrom={100} />
+                                <p>Electric cookers installed</p>
+                            </div>
+                            <div className="justify-between-item">
+                                <GrowingNumber limit={800} interval={10} startFrom={100} />
+                                <p>Cookers repaired</p>
+                            </div>
+                            <div className="justify-between-item">
+                                <GrowingNumber limit={700} interval={10} startFrom={100} />
+                                <p>Gas Safety certificates Issued</p>
+                            </div>
                         </div>
                     </div>
                 </section>
