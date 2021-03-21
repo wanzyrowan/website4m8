@@ -41,7 +41,7 @@ export default () => (
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
                 </section>
-                <section className="special blue">
+                <section className="special orange">
                     <div className="inner">
                         <h2>TESTIMONIALS</h2>
                         <div className="justify-between">
