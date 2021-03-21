@@ -12,7 +12,7 @@ export default () => (
         </Head>
 
         <div>
-            <BannerLanding />
+            <BannerLanding textDisable={true} />
 
             <div id="main">
                 <section id="one">
