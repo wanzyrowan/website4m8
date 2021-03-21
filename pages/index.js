@@ -52,17 +52,19 @@ export default () => (
                     <div className="justify-between">
                         <div className="justify-between-item">
                             <GrowingNumber limit={900} interval={10} startFrom={100} />
-                            <p>Nebezinau Kas daros</p>
+                            <p>Gas cookers installed</p>
                         </div>
                         <div className="justify-between-item">
                             <GrowingNumber limit={800} interval={10} startFrom={100} />
-                            <p> Kas daros</p>
+                            <p>Cookers repaired</p>
                         </div>
                         <div className="justify-between-item">
                             <GrowingNumber limit={600} interval={10} startFrom={100} />
+                            <p>Electric cookers installed</p>
                         </div>
                         <div className="justify-between-item">
                             <GrowingNumber limit={700} interval={10} startFrom={100} />
+                            <p>Gas Safety certificates</p>
                         </div>
                     </div>
                 </section>
