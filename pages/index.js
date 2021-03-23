@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 import GrowingNumber from '../components/GrowingNumber'
+import Particles from 'react-particles-js'
 
 export default () => (
     <Layout>
