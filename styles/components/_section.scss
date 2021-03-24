@@ -7,9 +7,18 @@
 /* Section/Article */
 
 	section, article {
+
+        canvas{
+            position: absolute;
+            width: 100%;
+            height: 50%;
+            z-index: 1 !important;
+        }
+
 		&.special {
 			text-align: center;
         }
+
         &.orange {
             background-color: _palette(accent2);
         }

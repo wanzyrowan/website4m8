@@ -11,8 +11,9 @@ export default () => (
             <Banner />
 
             <div id="main">
-                <section className="special orange">
-                    <div className="inner">
+                <section className="orange">
+                    <Particles />
+                    <div className="inner special">
                         <header className="">
                             <h2>MEET US</h2>
                         </header>
