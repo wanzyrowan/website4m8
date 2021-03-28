@@ -43,6 +43,25 @@ export default () => (
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
                 </section>
+                <section id="one">
+                    <div className="inner">
+                        <div className="row">
+                            <div className="4u 12u$(medium)">
+                                <h3 style={{textAlign: "center"}}>Free Quote, No Surprises &#10003;</h3>
+                                <p style={{textAlign: "justify"}}>We don’t charge a call out fee with any paid service. We provide a comprehensive, efficient and professional service with an estimate beforehand.</p>
+                            </div>
+                            <div className="4u 12u$(medium)">
+                                <h3 style={{textAlign: "center"}}>No Mess Left Behind &#10003;</h3>
+                                <p style={{textAlign: "justify"}}>You won’t have to clean up behind us. We treat your home like we would our own and will clean up and remove any mess with us. It's included!</p>
+                            </div>
+                            <div className="4u 12u$(medium)">
+                                <h3 style={{textAlign: "center"}}>Best Price Guarantee &#10003;</h3>
+                                <p style={{textAlign: "justify"}}>We are sure to quote the best deals available and stick to our quoted price, so you won't have to worry about any "unexpected" overhead costs.</p>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+                </section>
                 <section className="special blue">
                     <div className="inner">
                         <h2>TESTIMONIALS</h2>
