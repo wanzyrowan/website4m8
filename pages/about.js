@@ -7,7 +7,7 @@ import BannerLanding from '../components/BannerLanding'
 export default () => (
     <Layout>
         <Head>
-            <title>Landing Page</title>
+            <title>P&amp;S Gas Safe Engineers | About</title>
             <meta name="description" content="Landing Page" />
         </Head>
 
@@ -18,9 +18,11 @@ export default () => (
                 <section id="one">
                     <div className="inner">
                         <header className="major">
-                            <h2>Sed amet aliquam</h2>
+                            <h2>About Us</h2>
                         </header>
-                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                        <p>
+                            With over 30 years experience, from Corgi to Gas Safe all our Gas Safe Engineers are highly skilled, registered and fully insured. We offer a number of professional services at highly competitive prices: gas, electric and dual fuel cooker connection and disconnection, gas, electric and dual fuel cooker servicing, gas, electric and dual fuel ovens and gas, electric and dual fuel cooker, hobs and ovens service and repair.
+                        </p>
                     </div>
                 </section>
                 <section id="two" className="spotlights">

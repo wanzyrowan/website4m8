@@ -6,7 +6,7 @@ const Menu = (props) => (
         <div className="inner">
             <ul className="links">
                 <li><Link href="/"><a><span onClick={props.onToggleMenu}>Home</span></a></Link></li>
-                <li><Link href="/meetus"><a><span onClick={props.onToggleMenu}>Why Us</span></a></Link></li>
+                <li><Link href="/about"><a><span onClick={props.onToggleMenu}>Why Us</span></a></Link></li>
                 <li><Link href="/services"><a><span onClick={props.onToggleMenu}>Services</span></a></Link></li>
                 <li><Link href="/rates"><a><span onClick={props.onToggleMenu}>Our Rates</span></a></Link></li>
                 <li><Link href="/areas"><a><span onClick={props.onToggleMenu}>Covered Areas</span></a></Link></li>
