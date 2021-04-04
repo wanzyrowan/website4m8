@@ -8,7 +8,7 @@ import Particles from 'react-particles-js'
 export default () => (
     <Layout>
         <div>
-            <Banner />
+            <Banner styleClasses="major" />
 
             <div id="main">
                 <section className="orange">
