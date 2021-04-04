@@ -8,7 +8,12 @@ import Particles from 'react-particles-js'
 export default () => (
     <Layout>
         <div>
-            <Banner styleClasses="major img1" />
+            <Banner 
+                styleClasses="major homePage"
+                title="Trusted Gas Safe Engineers"
+                content={["Our Engineers are Gas Safe registered, fully licensed and insured.", <br />, "We have helped thousands of customers accross Greater London and Home Counties."]}
+                button="Our Services"
+            />
 
             <div id="main">
                 <section className="orange">
@@ -131,6 +136,8 @@ export default () => (
                             </div>
                         </div>
                     </div>
+                </section>
+                <section className="orange">
                 </section>
             </div>
 

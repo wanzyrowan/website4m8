@@ -2,7 +2,7 @@ import Head from "next/head"
 import Link from 'next/link'
 
 import Layout from '../components/Layout'
-import BannerLanding from '../components/BannerLanding'
+import Banner from '../components/Banner'
 
 export default () => (
     <Layout>
@@ -12,7 +12,7 @@ export default () => (
         </Head>
 
         <div>
-            <BannerLanding textDisable={true} styleClasses="major" />
+            <Banner textDisable={true} styleClasses="style2 aboutPage" />
 
             <div id="main">
                 <section id="one">
