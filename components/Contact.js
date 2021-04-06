@@ -38,13 +38,9 @@ const Contact = (props) => (
                     </div>
                 </section>
                 <section>
-                    <div className="contact-method">
-                        <span className="icon alt fa-home"></span>
-                        <h3>Address</h3>
-                        <span>1234 Somewhere Road #5432<br />
-                        Nashville, TN 00000<br />
-                        United States of America</span>
-                    </div>
+                    <span><img src="/static/images/check_a_Trade_P_and_S_Gas_Safe_Engineers_small.jpg" alt="" style={{width: "100%"}} /></span>
+                    <br />
+                    <span><img src="/static/images/gas_safe_engineer_p_and_s_gas_safe_engineers.jpg" alt="" style={{width: "100%"}} /></span>
                 </section>
             </section>
         </div>
