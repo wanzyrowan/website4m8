@@ -44,6 +44,7 @@ class Layout extends React.Component {
                     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
                     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600,600i" rel="stylesheet" />
                     <link href="/static/favicon.ico" rel="shortcut icon" />
+                     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
                 </Head>
                 <style dangerouslySetInnerHTML={{ __html: stylesheet }} />
 

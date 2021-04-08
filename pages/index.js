@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import Banner from '../components/Banner'
 import GrowingNumber from '../components/GrowingNumber'
 import Particles from 'react-particles-js'
+import ScrollAnimation from 'react-animate-on-scroll'
 
 export default () => (
     <Layout>
@@ -21,30 +22,32 @@ export default () => (
                 <section className="orange">
                     <Particles />
                     <div className="inner special">
-                        <header className="">
-                            <h2>MEET US</h2>
-                        </header>
-                        <p>P and S Gas Safe Engineers  is an established family business working in Greater London and Home Counties, with over 20 year’s experience in gas, electric and dual fuel cooker repairs, installations and service.</p>
-                        <ul className="actions">
-                            <li><Link href="/about"><a className="button" style={{position: "relative"}}>Learn more</a></Link></li>
-                        </ul>
+                        <ScrollAnimation animateIn="bounceInLeft" animateOut="fadeOut"><h2>MEET US</h2></ScrollAnimation>
+                        <ScrollAnimation animateIn="bounceInRight" animateOut="fadeOut">
+                            <p>P and S Gas Safe Engineers  is an established family business working in Greater London and Home Counties, with over 20 year’s experience in gas, electric and dual fuel cooker repairs, installations and service.</p>
+                            <ul className="actions">
+                                <li><Link href="/about"><a className="button" style={{position: "relative"}}>Learn more</a></Link></li>
+                            </ul>
+                        </ScrollAnimation>
                     </div>
                      <div className="inner">
-                        <div className="row">
-                            <div className="4u 12u$(medium)">
-                                <h3 style={{textAlign: "center"}}>Free Quote, No Surprises &#10003;</h3>
-                                <p style={{textAlign: "justify"}}>We don’t charge a call out fee with any paid service. We provide a comprehensive, efficient and professional service with an estimate beforehand.</p>
+                        <ScrollAnimation animateIn="bounceInUp" animateOut="backInDown">
+                            <div className="row">
+                                <div className="4u 12u$(medium)">
+                                    <h3 style={{textAlign: "center"}}>Free Quote, No Surprises &#10003;</h3>
+                                    <p style={{textAlign: "justify"}}>We don’t charge a call out fee with any paid service. We provide a comprehensive, efficient and professional service with an estimate beforehand.</p>
+                                </div>
+                                <div className="4u 12u$(medium)">
+                                    <h3 style={{textAlign: "center"}}>No Mess Left Behind &#10003;</h3>
+                                    <p style={{textAlign: "justify"}}>You won’t have to clean up behind us. We treat your home like we would our own and will clean up and remove any mess with us. It's included!</p>
+                                </div>
+                                <div className="4u 12u$(medium)">
+                                    <h3 style={{textAlign: "center"}}>Best Price Guarantee &#10003;</h3>
+                                    <p style={{textAlign: "justify"}}>We are sure to quote the best deals available and stick to our quoted price, so you won't have to worry about any "unexpected" overhead costs.</p>
+                                </div>
+                                <br />
                             </div>
-                            <div className="4u 12u$(medium)">
-                                <h3 style={{textAlign: "center"}}>No Mess Left Behind &#10003;</h3>
-                                <p style={{textAlign: "justify"}}>You won’t have to clean up behind us. We treat your home like we would our own and will clean up and remove any mess with us. It's included!</p>
-                            </div>
-                            <div className="4u 12u$(medium)">
-                                <h3 style={{textAlign: "center"}}>Best Price Guarantee &#10003;</h3>
-                                <p style={{textAlign: "justify"}}>We are sure to quote the best deals available and stick to our quoted price, so you won't have to worry about any "unexpected" overhead costs.</p>
-                            </div>
-                            <br />
-                        </div>
+                        </ScrollAnimation>
                     </div>
                 </section>
                 <section className="orange">
@@ -89,7 +92,7 @@ export default () => (
                 </section>
                 <section className="special blue">
                     <div className="inner">
-                        <h2>TESTIMONIALS</h2>
+                        <ScrollAnimation animateIn="fadeInDownBig" animateOut="fadeOut" ><h2>TESTIMONIALS</h2></ScrollAnimation>
                         <div className="justify-between">
                             <div className="box">
                                 <p>
