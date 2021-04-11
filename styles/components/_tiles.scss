@@ -34,7 +34,7 @@
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-            width: 50%;
+			width: 40%;
 
 			.image {
 				display: none;
@@ -72,7 +72,7 @@
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.25;
+				opacity: 0.45;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -92,12 +92,8 @@
 
 			&:hover {
 				&:before {
-                    opacity: 0;
-                }
-                &:after{
-                    opacity: 1;
-                    background-color: _palette(bg);
-                }
+					opacity: 0;
+				}
 			}
 
 			&.is-transitioning {
@@ -108,18 +104,18 @@
 
 			&:nth-child(4n - 1),
 			&:nth-child(4n - 2) {
-				width: 50%;
+				width: 60%;
 			}
 
 			&:nth-child(6n - 5) {
 				&:before {
-					background-color: _palette(bg);
+					background-color: _palette(accent2);
 				}
 			}
 
 			&:nth-child(6n - 4) {
 				&:before {
-					background-color: _palette(bg);
+					background-color: _palette(accent2);
 				}
 			}
 

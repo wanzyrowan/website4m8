@@ -8,6 +8,10 @@
 
 	section, article {
         
+        background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
         position: relative;
 
         .tsparticles-canvas-el{
@@ -36,10 +40,42 @@
 			max-width: _size(inner);
 			width: calc(100% - 6em);
 
-			@include breakpoint(small) {
-				@include padding(3em, 0);
-				width: calc(100% - 3em);
-			}
+			@include breakpoint(large) {
+                .box {
+                    @include padding(4em, 3em);
+                    height: 30vh;
+                    max-height: 30em;
+                    min-height: 20em;
+                }
+            }
+
+            @include breakpoint(medium) {
+                .box {
+                    width: 50% !important;
+                }
+            }
+
+            @include breakpoint(small) {
+                .box {
+                    @include padding(3em, 1.5em);
+                    height: 16em;
+                    max-height: none;
+                    min-height: 0;
+
+                    h3 {
+                        font-size: 1.5em;
+                    }
+                }
+            }
+
+            @include breakpoint(xsmall) {
+                display: block;
+
+                .box {
+                    height: 20em;
+                    width: 100% !important;
+                }
+            }
         }
         
         .justify-between-item{

@@ -12,68 +12,21 @@ export default () => (
         </Head>
 
         <div>
-            <Banner textDisable={true} styleClasses="style2 aboutPage" />
-
             <div id="main">
                 <section id="one">
                     <div className="inner">
                         <header className="major">
-                            <h2>About Us</h2>
+                            <h1>Who we are and what we can do</h1>
                         </header>
+                        <span className="image main"><img src="/static/images/gas_engineers_about_us_banner.jpg" alt="" /></span>
                         <p>
                             With over 30 years experience, from Corgi to Gas Safe all our Gas Safe Engineers are highly skilled, registered and fully insured. We offer a number of professional services at highly competitive prices: gas, electric and dual fuel cooker connection and disconnection, gas, electric and dual fuel cooker servicing, gas, electric and dual fuel ovens and gas, electric and dual fuel cooker, hobs and ovens service and repair.
                         </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+                        <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
                     </div>
                 </section>
-                <section id="two" className="spotlights">
-                    <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/pic08.jpg" alt="" /></a>
-                        </Link>
-                        <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>Orci maecenas</h3>
-                                </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                                <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/pic09.jpg" alt="" /></a>
-                        </Link>
-                        <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>Rhoncus magna</h3>
-                                </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                                <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <Link href="/generic">
-                            <a className="image"><img src="/static/images/pic10.jpg" alt="" /></a>
-                        </Link>
-                        <div className="content">
-                            <div className="inner">
-                                <header className="major">
-                                    <h3>Sed nunc ligula</h3>
-                                </header>
-                                <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                                <ul className="actions">
-                                    <li><Link href="/generic"><a className="button">Learn more</a></Link></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
+                <section className="orange">
                 </section>
             </div>
 

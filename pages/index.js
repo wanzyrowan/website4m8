@@ -22,8 +22,8 @@ export default () => (
                 <section className="orange">
                     <Particles />
                     <div className="inner special">
-                        <ScrollAnimation animateIn="bounceInLeft"><h2>MEET US</h2></ScrollAnimation>
-                        <ScrollAnimation animateIn="bounceInRight">
+                        <ScrollAnimation animateIn="bounceInLeft" initiallyVisible="true"><h2>MEET US</h2></ScrollAnimation>
+                        <ScrollAnimation animateIn="bounceInRight" animateOut="fadeOut" initiallyVisible="true">
                             <p>P and S Gas Safe Engineers  is an established family business working in Greater London and Home Counties, with over 20 year’s experience in gas, electric and dual fuel cooker repairs, installations and service.</p>
                             <ul className="actions">
                                 <li><Link href="/about"><a className="button" style={{position: "relative"}}>Learn more</a></Link></li>
@@ -31,7 +31,7 @@ export default () => (
                         </ScrollAnimation>
                     </div>
                      <div className="inner">
-                        <ScrollAnimation animateIn="bounceInUp" animateOut="backInDown">
+                        <ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible="true">
                             <div className="row">
                                 <div className="4u 12u$(medium)">
                                     <h3 style={{textAlign: "center"}}>Free Quote, No Surprises &#10003;</h3>
@@ -71,28 +71,12 @@ export default () => (
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
-                        <header className="major">
-                            <h3>Cooker Installations</h3>
-                            <ul className="actions">
-                                <li><a href="#one" className="button next scrolly">Find Out..</a></li>
-                            </ul>
-                        </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
-                    </article>
-                    <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
-                        <header className="major">
-                            <h3>Service, Repairs and Certification</h3>
-                                <ul className="actions">
-                                    <li><a href="#one" className="button next scrolly">Find Out..</a></li>
-                                </ul>   
-                        </header>
-                        <Link href="/landing"><a className="link primary"></a></Link>
-                    </article>
+                </section>
+                <section className="orange">
                 </section>
                 <section className="special blue">
                     <div className="inner">
-                        <ScrollAnimation animateIn="fadeInDownBig" animateOut="fadeOut" ><h2>TESTIMONIALS</h2></ScrollAnimation>
+                        <ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible="true"><h2>TESTIMONIALS</h2></ScrollAnimation>
                         <div className="justify-between">
                             <div className="box">
                                 <p>
