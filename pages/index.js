@@ -22,8 +22,8 @@ export default () => (
                 <section className="orange">
                     <Particles />
                     <div className="inner special">
-                        <ScrollAnimation animateIn="bounceInLeft" animateOut="fadeOut"><h2>MEET US</h2></ScrollAnimation>
-                        <ScrollAnimation animateIn="bounceInRight" animateOut="fadeOut">
+                        <ScrollAnimation animateIn="bounceInLeft"><h2>MEET US</h2></ScrollAnimation>
+                        <ScrollAnimation animateIn="bounceInRight">
                             <p>P and S Gas Safe Engineers  is an established family business working in Greater London and Home Counties, with over 20 year’s experience in gas, electric and dual fuel cooker repairs, installations and service.</p>
                             <ul className="actions">
                                 <li><Link href="/about"><a className="button" style={{position: "relative"}}>Learn more</a></Link></li>
