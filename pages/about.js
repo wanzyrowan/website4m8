@@ -12,6 +12,7 @@ export default () => (
         </Head>
 
         <div>
+            <Banner textDisable={true} styleClasses="style2 aboutPage" />
             <div id="main">
                 <section id="one">
                     <div className="inner">
