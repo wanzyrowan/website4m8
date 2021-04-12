@@ -18,7 +18,7 @@ export default () => (
                 <section id="one">
                     <div className="inner">
                         <header className="major">
-                            <h1><Typist cursor={{show: false}}>Who we are and what we can do</Typist></h1>
+                            <h1><Typist cursor={{hideWhenDone: true, hideWhenDoneDelay: 1}}>Who we are and what we can do</Typist></h1>
                         </header>
                         <span className="image main"><img src="/static/images/gas_engineers_about_us_banner.jpg" alt="" /></span>
                         <p>
