@@ -38,9 +38,9 @@ const Contact = (props) => (
                     </div>
                 </section>
                 <section>
-                    <span><a href="https://www.checkatrade.com/trades/PAndSGasFitting/reviews" target="_blank" style={{underline: "none"}}><img src="/static/images/check_a_Trade_P_and_S_Gas_Safe_Engineers_small.jpg" alt="" style={{width: "100%"}} /></a></span>
+                    <span><a href="https://www.checkatrade.com/trades/PAndSGasFitting/reviews" target="_blank" style={{border: "none"}}><img src="/static/images/check_a_Trade_P_and_S_Gas_Safe_Engineers_small.jpg" alt="" style={{width: "100%"}} /></a></span>
                     <br />
-                    <span><a href="https://www.gassaferegister.co.uk/" target="_blank"><img src="/static/images/gas_safe_engineer_p_and_s_gas_safe_engineers.jpg" alt="" style={{width: "100%"}} /></a></span>
+                    <span><a href="https://www.gassaferegister.co.uk/" target="_blank" style={{border: "none"}}><img src="/static/images/gas_safe_engineer_p_and_s_gas_safe_engineers.jpg" alt="" style={{width: "100%"}} /></a></span>
                 </section>
             </section>
         </div>
