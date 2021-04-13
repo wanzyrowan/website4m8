@@ -8,16 +8,15 @@ import Banner from '../components/Banner'
 export default () => (
     <Layout>
         <Head>
-            <title>P&amp;S Gas Safe Engineers | Our Rates</title>
+            <title>P&amp;S Gas Safe Engineers | Cooker Connection</title>
             <meta name="description" content="Elements Page" />
         </Head>
-
-        <Banner textDisable={true} styleClasses="style2 aboutPage" />
+        
         <div id="main">
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1><Typist cursor={{hideWhenDone: true, hideWhenDoneDelay: 1}}>Our Rates</Typist></h1>
+                        <h1><Typist cursor={{hideWhenDone: true, hideWhenDoneDelay: 1}}>Cooker Connection</Typist></h1>
                     </header>
                     <div className="table-wrapper">
                         <table>
