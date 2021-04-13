@@ -8,7 +8,7 @@ import Banner from '../components/Banner'
 export default () => (
     <Layout>
         <Head>
-            <title>P&amp;S Gas Safe Engineers | Service and Repairs</title>
+            <title>P&amp;S | Service and Repairs</title>
             <meta name="description" content="Elements Page" />
         </Head>
 

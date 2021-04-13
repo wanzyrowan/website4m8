@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 export default () => (
     <Layout>
         <Head>
-            <title>Elements Page</title>
+            <title>P&amp;S | FAQ</title>
             <meta name="description" content="Elements Page" />
         </Head>
 
