@@ -64,10 +64,19 @@ export default () => (
                     </article>
                     <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
                         <header className="major">
-                            <h3>Service, Repairs and Certification</h3>
+                            <h3>Service and Repairs</h3>
                                 <ul className="actions">
                                     <li><a href="#one" className="button next scrolly">Find Out..</a></li>
                                 </ul>   
+                        </header>
+                        <Link href="/landing"><a className="link primary"></a></Link>
+                    </article>
+                    <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
+                        <header className="major">
+                            <h3>Gas Safe Certification</h3>
+                            <ul className="actions">
+                                <li><a href="#one" className="button next scrolly">Find Out..</a></li>
+                            </ul>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
