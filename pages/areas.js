@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Typist from 'react-typist';
 
 import Layout from '../components/Layout'
 import Banner from '../components/Banner'
@@ -15,7 +16,7 @@ export default () => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Areas Covered</h1>
+                        <h1><Typist cursor={{hideWhenDone: true, hideWhenDoneDelay: 1}}>Areas Covered</Typist></h1>
                     </header>
                     <ul className="alt">
                         <li><b>E1</b> | Whitechapel, Stepney, Mile End</li>
