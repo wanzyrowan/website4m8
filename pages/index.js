@@ -59,13 +59,13 @@ export default () => (
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic02.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/gas-safe-certicate-p-and-s-gas-safe-engineers.jpg')`}}>
                         <header className="major2">
                             <h3>Gas Certification</h3>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
+                    <article style={{backgroundImage: `url('/static/images/Service-and-Repairs-P-and-S-Gas-Safe-Engineers.jpg')`}}>
                         <header className="major2">
                             <h3>Service and Repairs</h3>
                         </header>
