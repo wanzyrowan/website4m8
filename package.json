@@ -27,6 +27,7 @@
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.5.2",
     "react-particles-js": "^3.4.1",
+    "react-responsive-accordion": "^1.0.0",
     "react-typist": "^2.0.5",
     "sass-loader": "^7.1.0",
     "webpack": "4.20.2"
