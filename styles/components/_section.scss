@@ -21,12 +21,7 @@
 		&.special {
 			text-align: center;
         }
-
-        &.orange {
-            h2{
-                color: _palette(accent3);
-            }
-        }
+        
         &.blue {
             background-color: _palette(bg);
         }

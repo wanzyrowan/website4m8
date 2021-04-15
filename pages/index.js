@@ -22,7 +22,7 @@ export default () => (
                 <section className="orange">
                     <Particles />
                     <div className="inner special">
-                        <ScrollAnimation animateIn="bounceInLeft" initiallyVisible="true"><h2>MEET US</h2></ScrollAnimation>
+                        <ScrollAnimation animateIn="bounceInLeft" initiallyVisible="true"><h1>MEET US</h1></ScrollAnimation>
                         <ScrollAnimation animateIn="bounceInRight" animateOut="fadeOut" initiallyVisible="true">
                             <p>P and S Gas Safe Engineers  is an established family business working in Greater London and Home Counties, with over 30 year’s experience in gas, electric and dual fuel cooker repairs, installations and service.</p>
                             <ul className="actions">
@@ -76,7 +76,7 @@ export default () => (
                 </section>
                 <section className="special blue">
                     <div className="inner">
-                        <ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible="true"><h2>TESTIMONIALS</h2></ScrollAnimation>
+                        <ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible="true"><h1>TESTIMONIALS</h1></ScrollAnimation>
                         <div className="justify-between">
                             <div className="box">
                                 <p>
@@ -103,7 +103,7 @@ export default () => (
                 </section>
                 <section className="special blue">
                     <div className="inner">
-                        <h2>OUR EXPERIENCE</h2>
+                        <h1>OUR EXPERIENCE</h1>
                         <div className="justify-between">
                             <div className="justify-between-item">
                                 <GrowingNumber limit={900} interval={10} startFrom={100} />
