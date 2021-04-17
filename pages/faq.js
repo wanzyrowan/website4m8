@@ -1,5 +1,6 @@
 import Head from "next/head"
 
+import Typist from 'react-typist';
 import Layout from '../components/Layout'
 import Collapsible from 'react-collapsible';
 
@@ -14,14 +15,15 @@ export default () => (
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
-                    <Collapsible trigger="Wut?">
+                    <header className="major">
+                        <h1><Typist cursor={{hideWhenDone: true, hideWhenDoneDelay: 1}}>Frequently Asked Questions</Typist></h1>
+                    </header>
+                    <Collapsible trigger="Are your engineers fully qualified?">
                         <p>
-                            This is the collapsible content. It can be any element or React
-                            component you like.
+                            All of our engineers are fully qualified and this can be verified by “<a href="https://www.gassaferegister.co.uk/" target="_blank">Gas Safe</a>”.
                         </p>
                         <p>
-                            It can even be another Collapsible component. Check out the next
-                            section!
+                            They all carry photo ID’s providing evidence of who they are and their competence. 
                         </p>
                     </Collapsible>
                     <Collapsible trigger="Wut?">
