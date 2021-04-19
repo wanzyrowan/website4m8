@@ -53,19 +53,19 @@ export default () => (
                 <section className="orange">
                 </section>
                 <section id="two" className="tiles">
-                    <article style={{backgroundImage: `url('/static/images/pic01.jpg')`}}>
+                    <article style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/pic01.jpg')`}}>
                         <header className="major2">
                             <h3>Cooker Installations</h3>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/gas-safe-certicate-p-and-s-gas-safe-engineers.jpg')`}}>
+                    <article style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/gas-safe-certicate-p-and-s-gas-safe-engineers.jpg')`}}>
                         <header className="major2">
                             <h3>Gas Certification</h3>
                         </header>
                         <Link href="/landing"><a className="link primary"></a></Link>
                     </article>
-                    <article style={{backgroundImage: `url('/static/images/Service-and-Repairs-P-and-S-Gas-Safe-Engineers.jpg')`}}>
+                    <article style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/Service-and-Repairs-P-and-S-Gas-Safe-Engineers.jpg')`}}>
                         <header className="major2">
                             <h3>Service and Repairs</h3>
                         </header>
