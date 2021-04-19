@@ -23,6 +23,32 @@ export default () => (
                         <li><b>E1W</b> | Wapping</li>
                         <li><b>E2</b> | Bethnal Green, Shoreditch</li>
                     </ul>
+                    <div className="table-wrapper">
+                        <table>
+                            <tbody className="areasPage">
+                                <tr>
+                                    <td>Item1</td>
+                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                </tr>
+                                <tr>
+                                    <td>Item2</td>
+                                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                </tr>
+                                <tr>
+                                    <td>Item3</td>
+                                    <td> Morbi faucibus arcu accumsan lorem.</td>
+                                </tr>
+                                <tr>
+                                    <td>Item4</td>
+                                    <td>Vitae integer tempus condimentum.</td>
+                                </tr>
+                                <tr>
+                                    <td>Item5</td>
+                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </section>
 

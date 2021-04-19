@@ -16,15 +16,30 @@
 		width: 100%;
 
 		tbody {
-			tr {
-				border: solid 1px _palette(border);
-				border-left: 0;
-				border-right: 0;
+            &.areasPage{
+                tr {
+                    &:nth-child(2n) {
+                        border: solid 1px _palette(border);
+                        border-left: 0;
+                        border-right: 0;
+                    }
 
-				&:nth-child(2n + 1) {
-					background-color: _palette(border-bg);
-				}
-			}
+                    &.colorRows:nth-child(2n + 1) {
+                        background-color: _palette(border-bg);
+                    }
+                }
+            }
+            &.classic{
+                tr {
+                    border: solid 1px _palette(border);
+                    border-left: 0;
+                    border-right: 0;
+
+                    &:nth-child(2n + 1) {
+                        background-color: _palette(border-bg);
+                    }
+                }
+            }
 		}
 
 		td {
