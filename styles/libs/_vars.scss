@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
 // Misc.
 	$misc: (
 		z-index-base:		10000
@@ -20,8 +22,8 @@
 
 // Font.
 	$font: (
-		family:				('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
+		family:				('Titillium Web', Helvetica, sans-serif),
+        family-fixed:		('Courier New', monospace),
 		weight:				300,
 		weight-bold:		600,
 		letter-spacing:		0.025em,
