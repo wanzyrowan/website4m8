@@ -12,7 +12,7 @@ const Menu = (props) => (
                 <li><Link href="/areas"><a><span onClick={props.onToggleMenu}>Covered Areas</span></a></Link></li>
             </ul>
             <ul className="actions vertical">
-                <li><a href="/#contact" className="button special fit">Contact Us</a></li>
+                <li><a href="/#contact" className="button special fit" onClick={props.onToggleMenu}>Contact Us</a></li>
                 <li><a href="/faq" className="button fit">FAQs</a></li>
             </ul>
         </div>
