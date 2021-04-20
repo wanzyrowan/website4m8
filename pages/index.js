@@ -78,25 +78,29 @@ export default () => (
                     <div className="inner">
                         <ScrollAnimation animateIn="bounceInUp" animateOut="fadeOut" initiallyVisible="true"><h1>TESTIMONIALS</h1></ScrollAnimation>
                         <div className="justify-between">
-                            <div className="box">
-                                <p>
-                                    “Gas Cooker Installation Pipework – Good tidy workmanship carried out expertly.” <br /><br /> <i>James Whitbread – London</i>
-                                </p>
+                            <div className="ezfix">
+                                <div className="box">
+                                    <p>
+                                        “Gas Cooker Installation Pipework – Good tidy workmanship carried out expertly.” <br /><br /> <i>James Whitbread – London</i>
+                                    </p>
+                                </div>
+                                <div className="box">
+                                    <p>
+                                        “Electrical element replacement for oven. Fantastic, available at short notice.” <br /><br /> <i>Michael Jones – Epsom</i>
+                                    </p>
+                                </div>
                             </div>
-                            <div className="box">
-                                <p>
-                                    “Electrical element replacement for oven. Fantastic, available at short notice.” <br /><br /> <i>Michael Jones – Epsom</i>
-                                </p>
-                            </div>
-                            <div className="box">
-                                <p>
-                                    “Clean Oven – Very efficient through work. Quick response rate (within 24 hours) Friendly, helpful.” <br /><br /> <i>Joanna Raphael – Romford</i>
-                                </p>
-                            </div>
-                            <div className="box">
-                                <p>
-                                    “Repair Gas Oven – Polite And Courteous At All Times And Good At Job.” <br /><br /> <i>John Notes – Epsom</i>
-                                </p>
+                            <div className="ezfix">
+                                <div className="box">
+                                    <p>
+                                        “Clean Oven – Very efficient through work. Quick response rate (within 24 hours) Friendly, helpful.” <br /><br /> <i>Joanna Raphael – Romford</i>
+                                    </p>
+                                </div>
+                                <div className="box">
+                                    <p>
+                                        “Repair Gas Oven – Polite And Courteous At All Times And Good At Job.” <br /><br /> <i>John Notes – Epsom</i>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>

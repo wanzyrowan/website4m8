@@ -33,7 +33,14 @@
 			@include padding(4em, 4em);
 			margin: 0 auto;
 			max-width: _size(inner);
-			width: calc(100% - 6em);
+            width: calc(100% - 6em);
+            
+            .ezfix{
+
+                @include vendor('display', 'flex');
+                @include vendor('flex-direction', 'row');
+                justify-content: space-between;
+            }
 
 			@include breakpoint(large) {
                 .box {
@@ -45,6 +52,10 @@
             }
 
             @include breakpoint(medium) {
+                .ezfix{
+                    display: block;
+                    width: 50%;
+                }
                 .box {
                     height: 25em;
                     max-height: none;
