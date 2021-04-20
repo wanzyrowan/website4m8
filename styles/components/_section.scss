@@ -46,19 +46,20 @@
 
             @include breakpoint(medium) {
                 .box {
-                    width: 50% !important;
+                    height: 25em;
+                    max-height: none;
+                    min-height: 0;
                 }
             }
 
             @include breakpoint(small) {
                 .box {
-                    @include padding(3em, 1.5em);
-                    height: 16em;
+                    height: 20em;
                     max-height: none;
                     min-height: 0;
 
-                    h3 {
-                        font-size: 1.5em;
+                    p {
+                        font-size: 1em;
                     }
                 }
             }
@@ -69,6 +70,10 @@
                 .box {
                     height: 20em;
                     width: 100% !important;
+
+                    p {
+                        font-size: 1em;
+                    }
                 }
             }
         }
