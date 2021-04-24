@@ -109,21 +109,25 @@ export default () => (
                     <div className="inner">
                         <h1>OUR EXPERIENCE</h1>
                         <div className="justify-between">
-                            <div className="justify-between-item">
-                                <GrowingNumber limit={900} interval={10} startFrom={100} />
-                                <p>Gas cookers installed</p>
+                            <div className="ezfix">
+                                <div className="justify-between-item">
+                                    <GrowingNumber limit={900} interval={10} startFrom={100} />
+                                    <p>Gas cookers installed</p>
+                                </div>
+                                <div className="justify-between-item">
+                                    <GrowingNumber limit={600} interval={10} startFrom={100} />
+                                    <p>Electric cookers installed</p>
+                                </div>
                             </div>
-                            <div className="justify-between-item">
-                                <GrowingNumber limit={600} interval={10} startFrom={100} />
-                                <p>Electric cookers installed</p>
-                            </div>
-                            <div className="justify-between-item">
-                                <GrowingNumber limit={800} interval={10} startFrom={100} />
-                                <p>Cookers repaired</p>
-                            </div>
-                            <div className="justify-between-item">
-                                <GrowingNumber limit={700} interval={10} startFrom={100} />
-                                <p>Gas Safety certificates Issued</p>
+                            <div className="ezfix">
+                                <div className="justify-between-item">
+                                    <GrowingNumber limit={800} interval={10} startFrom={100} />
+                                    <p>Cookers repaired</p>
+                                </div>
+                                <div className="justify-between-item">
+                                    <GrowingNumber limit={700} interval={10} startFrom={100} />
+                                    <p>Gas Safety certificates Issued</p>
+                                </div>
                             </div>
                         </div>
                     </div>

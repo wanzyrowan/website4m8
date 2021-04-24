@@ -18,7 +18,7 @@ export default () => (
                     <header className="major">
                         <h1><Typist cursor={{hideWhenDone: true, hideWhenDoneDelay: 1}}>Frequently Asked Questions</Typist></h1>
                     </header>
-                    <Collapsible trigger="Are your engineers fully qualified?">
+                    <Collapsible trigger="Are P&amp;S engineers fully qualified?">
                         <p>
                             All of our engineers are fully qualified and this can be verified by “<a href="https://www.gassaferegister.co.uk/" target="_blank">Gas Safe</a>”.
                         </p>
@@ -26,7 +26,22 @@ export default () => (
                             They all carry photo ID’s providing evidence of who they are and their competence. 
                         </p>
                     </Collapsible>
-                    <Collapsible trigger="Wut?">
+                    <Collapsible trigger="Are P&amp;S engineers insured?">
+                        <p>
+                            All of our engineers have full public liability insurance.
+                        </p>
+                    </Collapsible>
+                    <Collapsible trigger="Are there any guarantees on P&amp;S work?">
+                        <p>
+                            All of our work is guaranteed and receipt of workmanship will be issued on completion of work carried out. 
+                        </p>
+                    </Collapsible>
+                    <Collapsible trigger="Are P&amp;S engineers “CORGI”?">
+                        <p>
+                            Yes, but “CORGI” name has changed to “Gas Safe” (All 8000 British Gas Engineers are now “<a href="https://www.gassaferegister.co.uk/" target="_blank">Gas Safe</a>” certified).
+                        </p>
+                    </Collapsible>
+                    <Collapsible trigger="What shall I consider when buying a new appliance?">
                         <p>
                             This is the collapsible content. It can be any element or React
                             component you like.

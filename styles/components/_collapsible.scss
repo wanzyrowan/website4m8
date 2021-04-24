@@ -1,6 +1,7 @@
 // The main container element
 .Collapsible {
   background-color: _palette(accent2);
+  margin-bottom: 1%;
 }
 
 
@@ -9,6 +10,7 @@
   padding: 10px;
   border: 1px solid _palette(accent1);
   border-top: 0;
+  margin-top: 0;
 
   p {
     margin-bottom: 10px;
