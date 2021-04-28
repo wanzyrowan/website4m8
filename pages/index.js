@@ -109,7 +109,7 @@ export default () => (
                     <div className="inner">
                         <h1>OUR EXPERIENCE</h1>
                         <div className="justify-between">
-                            <div className="ezfix">
+                            <div className="ezfix bbz">
                                 <div className="justify-between-item">
                                     <GrowingNumber limit={900} interval={10} startFrom={100} />
                                     <p>Gas cookers installed</p>
@@ -119,7 +119,7 @@ export default () => (
                                     <p>Electric cookers installed</p>
                                 </div>
                             </div>
-                            <div className="ezfix">
+                            <div className="ezfix bbz">
                                 <div className="justify-between-item">
                                     <GrowingNumber limit={800} interval={10} startFrom={100} />
                                     <p>Cookers repaired</p>

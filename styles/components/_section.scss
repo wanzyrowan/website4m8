@@ -40,9 +40,12 @@
                 @include vendor('display', 'flex');
                 @include vendor('flex-direction', 'row');
                 justify-content: space-between;
-                @include padding(0em, 1.25em);
                 max-width: _size(inner);
                 width: calc(100% - 6em);
+
+                &.bbz{
+                    @include padding(0em, 1.25em);
+                }
             }
 
 			@include breakpoint(large) {
