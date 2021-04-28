@@ -30,7 +30,7 @@
             @include vendor('display', 'flex');
             @include vendor('flex-direction', 'row');
             justify-content: space-between;
-			@include padding(4em, 4em);
+			@include padding(1em, 4em);
 			margin: 0 auto;
 			max-width: _size(inner);
             width: calc(100% - 6em);
@@ -40,6 +40,9 @@
                 @include vendor('display', 'flex');
                 @include vendor('flex-direction', 'row');
                 justify-content: space-between;
+                @include padding(0em, 1.25em);
+                max-width: _size(inner);
+                width: calc(100% - 6em);
             }
 
 			@include breakpoint(large) {
