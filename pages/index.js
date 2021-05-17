@@ -20,7 +20,23 @@ export default () => (
                 <section className="orange">
                 </section>
                 <section className="orange">
-                    <Particles />
+                    <Particles 
+                        params={{
+                        polygon: {
+                            enable: true,
+                            type: 'inside',
+                            move: {
+                                radius: 10
+                            },
+
+                        },
+                        particles: {
+                            number: {
+                            value: 10
+                            }
+                        }
+                        }}
+                    />
                     <div className="inner special">
                         <ScrollAnimation animateIn="bounceInLeft" initiallyVisible="true"><h1>MEET US</h1></ScrollAnimation>
                         <ScrollAnimation animateIn="bounceInRight" animateOut="fadeOut" initiallyVisible="true">
