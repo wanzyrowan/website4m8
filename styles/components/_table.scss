@@ -9,15 +9,23 @@
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
-		display: flex;
-		justify-content: center;
 	}
 
 	table {
 		margin: 0 0 _size(element-margin) 0;
 		width: 100%;
+		
+
+		&.floatLeft{
+			width: 50%; float: left;
+		}
+
+		&.floatRight{
+			width: 50%; float: right;
+		}
 
 		tbody {
+			
             &.areasPage{
                 tr {
                     &:nth-child(2n) {
