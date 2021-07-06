@@ -18,32 +18,75 @@ export default () => (
                     <header className="major">
                         <h1><Typist cursor={{hideWhenDone: true, hideWhenDoneDelay: 1}}>Areas Covered</Typist></h1>
                     </header>
-                    <ul className="alt">
-                        <li><b>E1</b> | Whitechapel, Stepney, Mile End</li>
-                        <li><b>E1W</b> | Wapping</li>
-                        <li><b>E2</b> | Bethnal Green, Shoreditch</li>
-                    </ul>
                     <div className="table-wrapper">
                         <table>
                             <tbody className="areasPage">
                                 <tr>
-                                    <td>Item1</td>
-                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                    <td className="heading">E1</td>
+                                    <td>Whitechapel, Stepney, Mile End</td>
                                 </tr>
                                 <tr>
-                                    <td>Item2</td>
-                                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                    <td className="heading">E1W</td>
+                                    <td>Wapping</td>
                                 </tr>
                                 <tr>
-                                    <td>Item3</td>
-                                    <td> Morbi faucibus arcu accumsan lorem.</td>
+                                    <td className="heading">E2</td>
+                                    <td>Golders Green, Hampstead Gdn Suburb</td>
                                 </tr>
                                 <tr>
-                                    <td>Item4</td>
+                                    <td className="heading">Item4</td>
                                     <td>Vitae integer tempus condimentum.</td>
                                 </tr>
                                 <tr>
-                                    <td>Item5</td>
+                                    <td className="heading">Item5</td>
+                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table>
+                            <tbody className="areasPage">
+                                <tr>
+                                    <td className="heading">Item1</td>
+                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                </tr>
+                                <tr>
+                                    <td className="heading">Item2</td>
+                                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                </tr>
+                                <tr>
+                                    <td className="heading">Item3</td>
+                                    <td> Morbi faucibus arcu accumsan lorem.</td>
+                                </tr>
+                                <tr>
+                                    <td className="heading">Item4</td>
+                                    <td>Vitae integer tempus condimentum.</td>
+                                </tr>
+                                <tr>
+                                    <td className="heading">Item5</td>
+                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table>
+                            <tbody className="areasPage">
+                                <tr>
+                                    <td className="heading">Item1</td>
+                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                </tr>
+                                <tr>
+                                    <td className="heading">Item2</td>
+                                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                </tr>
+                                <tr>
+                                    <td className="heading">Item3</td>
+                                    <td> Morbi faucibus arcu accumsan lorem.</td>
+                                </tr>
+                                <tr>
+                                    <td className="heading">Item4</td>
+                                    <td>Vitae integer tempus condimentum.</td>
+                                </tr>
+                                <tr>
+                                    <td className="heading">Item5</td>
                                     <td>Ante turpis integer aliquet porttitor.</td>
                                 </tr>
                             </tbody>
