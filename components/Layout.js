@@ -1,6 +1,6 @@
 import Head from "next/head"
 import stylesheet from 'styles/main.scss'
-
+import React from 'react'
 import Header from './Header'
 import Menu from './Menu'
 import Contact from './Contact'
